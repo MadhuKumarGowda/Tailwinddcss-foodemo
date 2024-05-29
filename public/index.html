@@ -3,14 +3,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Demo-  Tailwindcss</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../public/styles.css ">
 </head>
 <body class="text-yellow-700">
     <div> <!-- content wrapper -->
         <div>
             <nav>
                 <div>
-                    <h1 class="font-bold uppercase">
+                    <h1 class="font-bold uppercase p-4 border-b border-gray-100">
                         <a href="/"> Food Demo</a>
                     </h1>
                 </div>
@@ -32,9 +32,9 @@
                 </ul>
             </nav>
         </div> <!-- End of Nav-->
-        <main>
-            <div><a href="#"> Login In</a></div>
-            <div><a href="#"> Sign Up</a></div>
+        <main class="px-16 py-6">
+            <div><a href="#" class="text-primary"> Login In</a></div>
+            <div><a href="#" class="text-primary"> Sign Up</a></div>
 
             <header>
                 <h2 class="text-6xl font-semibold"> Receipes</h2>
@@ -42,7 +42,7 @@
             </header>
 
             <div>
-                <h4 class="font-bold"> Latest Recipes</h4>
+                <h4 class="font-bold mt-12 border-b border-gray-200"> Latest Recipes</h4>
                 <div>
                     <!-- cards goes here -->
                     <div>
@@ -53,13 +53,13 @@
                         </div>
                     </div>
 
-                    <h4 class="font-bold"> Popular Recipes</h4>
-                    <div>
+                    <h4 class="font-bold mt-12 pb-2"> Popular Recipes</h4>
+                    <div class="mt-8 border">
                         <!-- card go here-->
                     </div>
 
                     <div>
-                        <div> Load more</div>
+                        <div class="bg-secondary-100"> Load more</div>
                     </div>
 
                 </div>
